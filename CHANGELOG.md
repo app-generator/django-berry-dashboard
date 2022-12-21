@@ -1,7 +1,7 @@
 # Change Log
 
 ## [1.0.0] 2022-12-21
-### Initial Release
+### Changes
 
 - Deployment-ready for Render
   - `render.yaml` 
