@@ -3,7 +3,7 @@ services:
     name: django-berry-dashboard
     plan: starter
     env: python
-    region: oregon  # region should be same as your database region.
+    region: frankfurt  # region should be same as your database region.
     buildCommand: "./build.sh"
     startCommand: "gunicorn core.wsgi:application"
     envVars:
