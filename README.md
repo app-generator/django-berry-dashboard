@@ -1,23 +1,15 @@
-# [Django Berry PRO](https://github.com/app-generator/django-berry-dashboard-pro) `Starter`
+# [Django Berry Dashboard](https://blog.appseed.us/django-berry-bootstrap-5-free/)
 
-**Django** starter styled with **Berry Dashboard PRO**, a premium `Boostrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
-The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
+Open-source **Django** project crafted on top of **Berry Dashboard**, an open-source `Boostrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
+The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. `Berry` has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
-> 👉 **NOTE**: This product `requires a License` in order to access the theme. During the purchase, a 
-
-
-<br />
-
-## Features: 
+> Features: 
 
 - ✅ `Up-to-date Dependencies`
-- ✅ `Design`: [Django Theme Berry](https://github.com/app-generator/django-admin-berry-pro) - `PRO Version`
-- ✅ `Sections` covered by the design:
-  - ✅ **Admin section** (reserved for superusers)
-  - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
-  - ✅ **All Pages** available in for ordinary users 
-- ✅ `Deployment-Ready` for Render  
-- 🚀 [Support](https://appseed.us/support/) via `Email` & `Discord` 
+- ✅ Theme: [Django Admin Berry](https://github.com/app-generator/django-admin-berry)
+- ✅ `Docker`
+- ✅ **Authentication**: `Django.contrib.AUTH`, Registration
+- 🚀 Free [Support](https://appseed.us/support/) via `Email` & `Discord` 
 
 <br />
 
@@ -30,26 +22,13 @@ The product is designed to deliver the best possible user experience with highly
 > 👉 Download the code  
 
 ```bash
-$ git clone https://github.com/app-generator/django-berry-dashboard-pro.git
-$ cd django-berry-dashboard-pro
+$ git clone https://github.com/app-generator/django-berry-dashboard.git
+$ cd django-berry-dashboard
 ```
 
 <br />
 
-> Export `GITHUB_TOKEN` in the environment. The value is provided by AppSeed during purchase. 
-
-This is required because the project has a private REPO dependency: `github.com/app-generator/priv-django-admin-berry-pro`
-
-```bash
-$ export GITHUB_TOKEN='TOKEN_HERE'  # for Linux, Mac
-$ set GITHUB_TOKEN='TOKEN_HERE'     # Windows CMD
-$ $env:GITHUB_TOKEN = 'TOKEN_HERE'  # Windows powerShell 
-```
-
-<br />
-
-> 👉 Install modules via `VENV`.
-
+> 👉 Install modules via `VENV`  
 
 ```bash
 $ virtualenv env
@@ -116,4 +95,4 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 <br />
 
 ---
-[Django Berry Dashboard](https://github.com/app-generator/django-berry-dashboard-pro) - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
+[Django Berry Dashboard](https://blog.appseed.us/django-berry-bootstrap-5-free/) - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
