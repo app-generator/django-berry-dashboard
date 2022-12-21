@@ -5,6 +5,7 @@ The product is designed to deliver the best possible user experience with highly
 
 - 👉 [Django Berry](https://django-berry-dashboard.onrender.com) - `LIVE Demo` on Render
 - 🛒 **[Django Berry PRO](https://github.com/app-generator/django-berry-dashboard-pro)** - `Premium Version`
+- 🚀 Free [Support](https://appseed.us/support/) via `Email` & `Discord`
 
 <br />
 
@@ -12,9 +13,9 @@ The product is designed to deliver the best possible user experience with highly
 
 - ✅ `Up-to-date Dependencies`
 - ✅ Theme: [Django Admin Berry](https://github.com/app-generator/django-admin-berry)
-- ✅ `Docker`
 - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
-- 🚀 Free [Support](https://appseed.us/support/) via `Email` & `Discord` 
+- 🚀 `Deployment-Ready` for Render
+  - **[Go LIVE with Django](https://www.youtube.com/watch?v=raOs8ZZPq6c)** - `Video Presentation`
 
 <br />
 
