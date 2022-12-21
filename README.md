@@ -6,6 +6,8 @@ The product is designed to deliver the best possible user experience with highly
 - 👉 [Django Berry](https://django-berry-dashboard.onrender.com) - `LIVE Demo` on Render
 - 🛒 **[Django Berry PRO](https://github.com/app-generator/django-berry-dashboard-pro)** - `Premium Version`
 
+<br />
+
 > Features: 
 
 - ✅ `Up-to-date Dependencies`
