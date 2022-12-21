@@ -3,6 +3,9 @@
 Open-source **Django** project crafted on top of **Berry Dashboard**, an open-source `Boostrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. `Berry` has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
+- 👉 [Django Berry](https://django-berry-dashboard.onrender.com) - `LIVE Demo` on Render
+- 🛒 **[Django Berry PRO](https://github.com/app-generator/django-berry-dashboard-pro)** - `Premium Version`
+
 > Features: 
 
 - ✅ `Up-to-date Dependencies`
