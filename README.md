@@ -14,8 +14,8 @@ The product is designed to deliver the best possible user experience with highly
 - ✅ `Up-to-date Dependencies`
 - ✅ Theme: [Django Admin Berry](https://github.com/app-generator/django-admin-berry)
 - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
-- 🚀 `Deployment-Ready` for Render
-  - **[Go LIVE with Django](https://www.youtube.com/watch?v=raOs8ZZPq6c)** - `Video Presentation`
+- 🚀 `Deployment` 
+  - `CI/CD` flow via `Render`
 
 <br />
 
