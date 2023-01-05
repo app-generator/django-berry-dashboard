@@ -1,10 +1,16 @@
 # Change Log
 
-## [1.0.1] 2022-12-21
+## [1.0.2] 2023-01-05
 ### Changes
 
-- Bump UI Version
-  - [Django Berry](https://github.com/app-generator/django-admin-berry) `v1.0.5`
+- Bump Theme Version: 
+  - [Django Admin Berry](https://github.com/app-generator/django-admin-berry) `1.0.7`
+
+## [1.0.1] 2022-12-27
+### Changes
+
+- Deployment-ready for Render
+  - `render.yaml` 
 
 ## [1.0.0] 2022-12-21
 ### Changes
