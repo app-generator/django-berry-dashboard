@@ -5,7 +5,7 @@ The product is designed to deliver the best possible user experience with highly
 
 - 👉 [Django Berry](https://appseed.us/product/berry-dashboard/django/) - `Product page`
 - 👉 [Django Berry](https://django-berry.onrender.com) - `LIVE Demo`
-- 🛒 **[Django Berry PRO](https://github.com/app-generator/django-berry-dashboard-pro)** - `Premium Version`
+- 🛒 **[Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/)** - `Premium Version`
 
 <br />
 
