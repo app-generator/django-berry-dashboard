@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.3] 2023-01-10
+### Changes
+
+- Bump Theme Version: 
+  - [Django Admin Berry](https://github.com/app-generator/django-admin-berry) `1.0.8`
+
 ## [1.0.2] 2023-01-05
 ### Changes
 

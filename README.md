@@ -82,21 +82,24 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 
 <br />
 
-## Screenshots
+## [PRO Version](https://appseed.us/product/berry-dashboard-pro/django/)   
 
-![Berry Bootstrap 5 - Sign IN, Open-source Starter by AppSeed.](https://user-images.githubusercontent.com/51070104/207091198-2753246e-3d65-4aac-96de-0598a9a94788.jpg)
+This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Dashboard with a fresh, new design inspired by Google's Material Design. `Material Dashboard 2 PRO` is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
+
+> Features: 
+
+- `Up-to-date Dependencies`
+- `Design`: [Django Theme Berry](https://github.com/app-generator/django-admin-berry-pro) - `PRO Version`
+- `Sections` covered by the design:
+  - **Admin section** (reserved for superusers)
+  - **Authentication**: `Django.contrib.AUTH`, Registration
+  - **All Pages** available in for ordinary users 
+- `Docker`, `Deployment`:
+  - `CI/CD` flow via `Render`
 
 <br />
 
-> [Django Admin Berry](https://github.com/app-generator/django-admin-berry) - `Icons` Page
-
-![Berry Bootstrap 5 - UI Icons page, Open-source Starter by AppSeed](https://user-images.githubusercontent.com/51070104/207091655-d5005e08-7ea0-4367-ab3a-2cd16934d2fd.jpg)
-
-<br />
-
-> [Django Admin Berry](https://github.com/app-generator/django-admin-berry) - `Colors` page
-
-![Berry Bootstrap 5 - Colors page, Open-source Starter by AppSeed](https://user-images.githubusercontent.com/51070104/207091441-942be542-2794-4bdb-a51d-85c75b5bc692.jpg)
+![Berry Bootstrap 5 PRO - Premium Template Django Template.](https://user-images.githubusercontent.com/51070104/210833058-be0b3e87-4f2b-4765-b84d-3795ba03c6a1.jpg)
 
 <br />
 
