@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.4] 2023-01-30
+### Changes
+
+- Bump Design: [Django Admin Berry](https://github.com/app-generator/django-admin-berry) `1.0.10`
+- DOCS Update (readme). New sections:
+  - `How to customize the theme`
+  - Render deployment
+- Configure the project to use `home/templates`
+- Added `custom_footer` sample
+
 ## [1.0.3] 2023-01-10
 ### Changes
 
