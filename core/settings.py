@@ -10,9 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-import os, random, string
+import os, random, string, inspect
 from pathlib import Path
 from dotenv import load_dotenv
+from str2bool import str2bool
 
 load_dotenv()  # take environment variables from .env.
 
@@ -27,10 +28,16 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 if not SECRET_KEY:
     SECRET_KEY = ''.join(random.choice( string.ascii_lowercase  ) for i in range( 32 ))
 
-# Render Deployment Code
-DEBUG = 'RENDER' not in os.environ
+# Enable/Disable DEBUG Mode
+DEBUG = str2bool(os.environ.get('DEBUG'))
+#print(' DEBUG -> ' + str(DEBUG) ) 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+
+# Add here your deployment HOSTS
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'http://localhost:5085', 'http://127.0.0.1:8000', 'http://127.0.0.1:5085']
+
+X_FRAME_OPTIONS = "SAMEORIGIN"
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:    
@@ -63,7 +70,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "core.urls"
 
-HOME_TEMPLATES = os.path.join(BASE_DIR, 'home', 'templates')
+HOME_TEMPLATES = os.path.join(BASE_DIR, 'templates')
 
 TEMPLATES = [
     {

@@ -4,17 +4,28 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django/)** 
 
 - 👉 [Django Berry](https://appseed.us/product/berry-dashboard/django/) - `Product page`
 - 👉 [Django Berry](https://django-berry.onrender.com) - `LIVE Demo`
-- 🛒 **[Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/)** - `Premium Version`
 
 <br />
 
-> Features: 
+## Features
 
-- ✅ `Up-to-date Dependencies`
-- ✅ Theme: [Django Admin Berry](https://github.com/app-generator/django-admin-berry)
-- ✅ **Authentication**: `Django.contrib.AUTH`, Registration
-- 🚀 `Deployment` 
-  - `CI/CD` flow via `Render`
+> `Have questions?` Contact **[Support](https://appseed.us/support/)** (Email & Discord) provided by **AppSeed**
+
+| Free Version                          | [PRO Version](https://appseed.us/product/berry-dashboard-pro/django/)    | [Custom Development](https://appseed.us/custom-development/) |  
+| --------------------------------------| --------------------------------------| --------------------------------------|
+| ✓ **Django 4.2.9**                    | **Everything in Free**, plus:                                         | **Everything in PRO**, plus:         |
+| ✓ Best Practices                      | ✅ **Premium Bootstrap 5 Design**                                     | ✅ **1mo Custom Development**       | 
+| ✓ Bootstrap 5, `Material` Design      | ✅ `OAuth` Google, GitHub                                             | ✅ **Team**: PM, Developer, Tester  |
+| ✓ `CI/CD` Flow via Render             | ✅ `API`, **Charts**                                                  | ✅ Weekly Sprints                   |
+| ✓ `Docker`                            | ✅ **DataTables** (Filters, Export)                                   | ✅ Technical SPECS                  |
+| -                                     |✅ **Celery**                                                          | ✅ Documentation                    |
+| -                                     | ✅ **Media Files Manager**                                            | ✅ **30 days Delivery Warranty**    |
+| -                                     | ✅ **Extended User Profiles**                                         |  -                                   |
+| -                                     | ✅ `Private REPO Access`                                              |  -                                   |
+| -                                     | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)   |  -                                   |
+| -                                     | ✅ Deployment Assistance                                              |  -                                   |
+| ------------------------------------  | ------------------------------------                                                           | ------------------------------------|
+| ✓ [LIVE Demo](https://django-berry.onrender.com)  | 🚀 [LIVE Demo](https://django-berry-pro.onrender.com) | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |   
 
 ![Berry Bootstrap 5 - Dark-Mode ready, Open-source Template.](https://user-images.githubusercontent.com/51070104/215728710-d1ee7fef-8153-402b-9741-371e1c01cd36.png)
 
