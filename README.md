@@ -25,7 +25,7 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django/)** 
 | -                                     | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)   |  -                                   |
 | -                                     | ✅ Deployment Assistance                                              |  -                                   |
 | ------------------------------------  | ------------------------------------                                                           | ------------------------------------|
-| ✓ [LIVE Demo](https://django-berry.onrender.com)  | 🚀 [LIVE Demo](https://django-berry-pro.onrender.com) | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |   
+| ✓ [LIVE Demo](https://django-berry.onrender.com)  | 🚀 [LIVE Demo](https://django-berry-pro.onrender.com) | 🛒 `Order`: **[$4,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |   
 
 ![Berry Bootstrap 5 - Dark-Mode ready, Open-source Template.](https://user-images.githubusercontent.com/51070104/215728710-d1ee7fef-8153-402b-9741-371e1c01cd36.png)
 
