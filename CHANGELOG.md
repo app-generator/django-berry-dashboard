@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.6] 2024-11-11
+### Changes
+
+- Update RM Links:
+  - 👉 [Django Berry Dashboard](https://app-generator.dev/docs/products/django/berry/index.html) - **Complete Documentation**
+  - 👉 [Django Berry Dashboard](https://app-generator.dev/product/berry-dashboard/django/) - Product Page
+  - 👉 [Get Support](https://app-generator.dev/ticket/create/) via Email and Discord
+
 ## [1.0.5] 2024-03-09
 ### Changes
 
