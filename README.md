@@ -8,7 +8,7 @@ The product is designed to deliver the best possible user experience with highly
 - 👉 [Django Berry Dashboard](https://django-berry.onrender.com/) - `LIVE Demo` 
 - 👉 [Django Berry Dashboard](https://app-generator.dev/docs/products/django/berry/index.html) - `Complete Information` and Support Links
   - [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) - a `comprehensive tutorial`
-  - `Configuration`: Install Tailwind/Flowbite, Prepare Environment, Setting up the Database 
+  - `Configuration`: Install Dependencies, Prepare Environment, Setting up the Database 
   - `Start with Docker`
   - `Manual Build`
   - `Start the project`
