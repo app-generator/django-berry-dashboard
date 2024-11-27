@@ -20,7 +20,7 @@ The product is designed to deliver the best possible user experience with highly
 
 - **Django 4.1.12**
 - Best Practices
-- **Berry Dashboard Dashboard** - Full Integration 
+- **Berry Dashboard Design** - Full Integration 
 - `CI/CD` Flow via Render 
 - `Docker`
 
