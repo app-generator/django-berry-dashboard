@@ -16,13 +16,39 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
+## Add Features with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select Berry Dashboard as the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
+<br />
+
+## Deploy LIVE
+
+> One-click deploy (requires to have already an account).
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+<br /> 
+
 ## Features
 
-- **Django 4.1.12**
-- Best Practices
-- **Berry Dashboard Design** - Full Integration 
-- `CI/CD` Flow via Render 
-- `Docker`
+- Simple, Easy-to-Extend Codebase
+- Black Dashboard Design - Full Integration 
+- Bootstrap Styling 
+- Session-based Authentication, Password recovery
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
+- Docker 
+- CI/CD integration for Render 
 
 ![Django Berry Dashboard - Open-Source Django Starter](https://user-images.githubusercontent.com/51070104/215728710-d1ee7fef-8153-402b-9741-371e1c01cd36.png)
 
