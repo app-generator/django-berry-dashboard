@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.9] 2024-12-16
+### Changes
+
+- Preselect the design in the Generator:
+  - [Django App Generator - Berry Design](https://app-generator.dev/tools/django-generator/berry/)
+
 ## [1.0.8] 2024-12-15
 ### Changes
 

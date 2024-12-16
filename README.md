@@ -16,10 +16,10 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-## Add Features with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+### Customize with [Django App Generator - Berry Design](https://app-generator.dev/tools/django-generator/berry/)
 
 - Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
-- Select Berry Dashboard as the preferred design
+- Select **Berry Dashboard** as the preferred design
 - (Optional) Design Database: edit models and fields
 - (Optional) Edit the fields for the extended user model
 - (Optional) Enable OAuth for GitHub
