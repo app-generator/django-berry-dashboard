@@ -19,7 +19,7 @@ The product is designed to deliver the best possible user experience with highly
 ## Features
 
 - Simple, Easy-to-Extend Codebase
-- Berry Dashboard Design Integration 
+- [Berry Dashboard](https://app-generator.dev/docs/templates/bootstrap/berry-dashboard.html) Design Integration 
 - Bootstrap Styling 
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
