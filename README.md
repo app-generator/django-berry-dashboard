@@ -16,34 +16,10 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-### Customize with [Django App Generator - Berry Design](https://app-generator.dev/tools/django-generator/berry/)
-
-- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
-- Select **Berry Dashboard** as the preferred design
-- (Optional) Design Database: edit models and fields
-- (Optional) Edit the fields for the extended user model
-- (Optional) Enable OAuth for GitHub
-- (Optional) Add Celery (async tasks)
-- (Optional) Enable Dynamic API Module
-- Docker Scripts
-- Render CI/Cd Scripts
-
-**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
-
-<br />
-
-## Deploy LIVE
-
-> One-click deploy (requires to have already an account).
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
-
-<br /> 
-
 ## Features
 
 - Simple, Easy-to-Extend Codebase
-- Black Dashboard Design - Full Integration 
+- Berry Dashboard Design Integration 
 - Bootstrap Styling 
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
@@ -53,6 +29,14 @@ The product is designed to deliver the best possible user experience with highly
 ![Django Berry Dashboard - Open-Source Django Starter](https://user-images.githubusercontent.com/51070104/215728710-d1ee7fef-8153-402b-9741-371e1c01cd36.png)
 
 <br />
+
+## Deploy LIVE
+
+> One-click deploy (requires to have an account).
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+<br /> 
 
 ## [Berry Dashboard PRO Version](https://app-generator.dev/product/berry-dashboard-pro/django/)
 
@@ -69,6 +53,22 @@ The product is designed to deliver the best possible user experience with highly
 - **Deployment-Ready** for Render 
 
 ![Berry Bootstrap 5 PRO - Premium Template Django Template integrated with Django.](https://user-images.githubusercontent.com/51070104/215728155-9b9cfe26-96e8-49c3-8a08-131d96f4f2eb.png)
+
+<br />
+
+### `Customize` with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
 
 <br />
 
