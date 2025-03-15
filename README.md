@@ -56,7 +56,7 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-### `Customize` with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+## `Customize` with [Django App Generator](https://app-generator.dev/tools/django-generator/)
 
 - Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
 - Select the preferred design
@@ -69,6 +69,10 @@ The product is designed to deliver the best possible user experience with highly
 - Render CI/Cd Scripts
 
 **The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
+![Django Generator - User Interface for choosing the Design](https://github.com/user-attachments/assets/b989c434-1c53-49ff-8dda-b46dbfc142ac) 
+
+![Django App Generator - User Interface for Edit the Extended User Model](https://github.com/user-attachments/assets/f1a5fb68-a5ba-49c9-a3ae-91716de09912) 
 
 <br />
 
