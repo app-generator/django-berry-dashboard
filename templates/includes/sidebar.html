@@ -1,0 +1,144 @@
+{% load i18n static admin_berry %}
+
+<!-- [ Sidebar Menu ] start -->
+<nav class="pc-sidebar">
+  <div class="navbar-wrapper">
+    <div class="m-header">
+      <a href="/" class="b-brand">
+        <!-- ========   Change your logo from here   ============ -->
+        <img src="{% static 'assets/images/logo-dark.svg' %}" alt="" class="logo logo-lg" />
+      </a>
+    </div>
+    <div class="navbar-content">
+      <ul class="pc-navbar">
+        <li class="pc-item pc-caption">
+          <label>Dashboard</label>
+          <i class="ti ti-dashboard"></i>
+        </li>
+        
+        <li class="pc-item">
+          {% if request.user.is_superuser %}
+          <a href="{% url 'admin:index' %}" class="pc-link">
+          {% else %}
+          <a href="/" class="pc-link">
+          {% endif %}
+            <span class="pc-micon"><i class="ti ti-dashboard"></i></span>
+            <span class="pc-mtext">Dashboard</span></a>
+        </li>
+        <li class="pc-item">
+            <a href="{% url "dynamic_dt" %}" class="pc-link">
+              <span class="pc-micon">
+                <i class="ti ti-table"></i>
+              </span>
+              <span class="pc-mtext">Dynamic Tables</span>
+            </a>
+        </li>     
+        <li class="pc-item">
+            <a href="{% url "dynamic_api" %}" class="pc-link">
+              <span class="pc-micon">
+                <i class="ti ti-server"></i>
+              </span>
+              <span class="pc-mtext">Dynamic API</span>
+            </a>
+        </li>       
+        <li class="pc-item">
+            <a href="{% url "charts" %}" class="pc-link">
+              <span class="pc-micon">
+                <i class="ti ti-chart-bar"></i>
+              </span>
+              <span class="pc-mtext">Charts</span>
+            </a>
+        </li>    
+
+        {% admin_get_menu as app_list %}
+        {% if app_list %}
+          {% for app in app_list %}
+            {% if app.has_perms and not app.pinned %}
+            <li class="pc-item pc-hasmenu">
+              <a href="#!" class="pc-link">
+                <span class="pc-micon"><i class="ti {{app.icon}}"></i></span>
+                <span class="pc-mtext">{{ app.label|slice:15 }}{% if app.label|length > 15 %}..{% endif %}</span>
+                <span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
+              </a>
+              {% if app.models %}
+                <ul class="pc-submenu">
+                  {% for model in app.models %}
+                  {% if model.url %}
+                  <li class="pc-item">
+                    <a class="pc-link" href="{{ model.url }}">
+                      {{ model.label }}
+                    </a>
+                  </li>
+                  {% else %}
+                  <li class="pc-item">{{ model.label }}</li>
+                  {% endif %}
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+
+        <li class="pc-item pc-caption">
+          <label>Pages</label>
+          <i class="ti ti-news"></i>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-key"></i></span><span
+              class="pc-mtext">User Pages</span><span class="pc-arrow"><i class="ti ti-chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+            {% if request.user.is_superuser %}
+              <li class="pc-item"><a class="pc-link" href="{% url 'admin:password_change' %}">Change Password</a></li>
+              <li class="pc-item"><a class="pc-link" href="{% url 'admin:logout' %}">Logout</a></li>
+            {% else %}
+              {% if request.user.is_authenticated %}
+              <li class="pc-item"><a class="pc-link" href="{% url 'password_change' %}">Change Password</a></li>
+              <li class="pc-item"><a class="pc-link" href="{% url 'logout' %}">Logout</a></li>
+              {% else %}
+              <li class="pc-item"><a class="pc-link" href="{% url 'login' %}">Login</a></li>
+              <li class="pc-item"><a class="pc-link" href="{% url 'register' %}">Register</a></li>
+              {% endif %}
+            {% endif %}
+          </ul>
+        </li>
+
+        <li class="pc-item pc-caption">
+          <label>Elements</label>
+          <i class="ti ti-apps"></i>
+        </li>
+        <li class="pc-item">
+          <a href="{% url 'typography' %}" class="pc-link"><span class="pc-micon"><i
+                class="ti ti-typography"></i></span><span class="pc-mtext">Typography</span></a>
+        </li>
+        <li class="pc-item">
+          <a href="{% url 'color' %}" class="pc-link"><span class="pc-micon"><i class="ti ti-brush"></i></span><span
+              class="pc-mtext">Color</span></a>
+        </li>
+        <li class="pc-item">
+          <a href="{% url 'icon_tabler' %}" class="pc-link"><span class="pc-micon"><i
+                class="ti ti-plant-2"></i></span><span class="pc-mtext">Tabler</span><span class="pc-arrow"></a>
+        </li>
+
+        <li class="pc-item pc-caption">
+          <label>Other</label>
+          <i class="ti ti-brand-chrome"></i>
+        </li>
+        <li class="pc-item">
+          <a href="{% url 'sample_page' %}" class="pc-link"><span class="pc-micon"><i
+                class="ti ti-brand-chrome"></i></span><span class="pc-mtext">Sample page</span></a></li>
+        <li class="pc-item">
+          <a href="https://github.com/app-generator/django-admin-berry" target="_blank" class="pc-link"><span
+              class="pc-micon"><i class="ti ti-vocabulary"></i></span><span class="pc-mtext">DOCS</span></a></li>
+      </ul>
+
+      <div class="pc-navbar-card bg-primary rounded">
+        <h4 class="text-white">Berry Bootstrap 5</h4>
+        <p class="text-white opacity-75">Open-Source Theme</p>
+        <a href="https://appseed.us/product/berry-dashboard/django/"  
+           target="_blank" class="btn btn-light text-primary">Download</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- [ Sidebar Menu ] end -->
