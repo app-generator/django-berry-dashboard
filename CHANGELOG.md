@@ -1,5 +1,16 @@
 # Change Log
 
+## [1.0.11] 2025-05-15
+### Changes
+
+- Codebase refactoring
+- Added Dynamic Tables module
+- Added Dynamic API Module  
+- Added CLI Module for different internal tasks
+- Integrate Vite for Assets management
+- Bump UI: [Berry UI Library](https://app-generator.dev/docs/products/django-libs/theme-berry.html), v1.0.17
+- Update Links
+
 ## [1.0.10] 2025-02-08
 ### Changes
 
